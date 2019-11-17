@@ -3,7 +3,7 @@ const port = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  res.end('Hello Node!\n');
+  res.end('Hello Node, welcome to mayank ec2!\n');
 });
 
 server.listen(port, () => {
